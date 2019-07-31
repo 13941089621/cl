@@ -1,0 +1,94 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                               标签 初始化 默认样式                      				  	  ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td,* { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; } 
+p{word-wrap:break-word} 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+address,cite,dfn,em,i,var {font-style: normal;}
+small { font-size: 12px;}
+dl,ol,ul,li {list-style-type: none;}
+a {text-decoration: none;outline: none;color: #000000;}
+a:hover {text-decoration: none;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+button,input,select,textarea {font-size: 100%;outline: none;}
+input{cursor: pointer;}
+input[type="submit"],input[type="password"],input[type="reset"],input[type="button"],button {-webkit-appearance: none;outline: none;tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input[type="text"]{border: 1px solid #999999;}
+input[type="text"]:focus{border: 1px solid #000;}
+input::-ms-clear,input::-ms-reveal {display: none;}
+textarea {resize: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+img { border: none;vertical-align: top;}
+article,aside,details,figcaption,figure,footer,header,section,summary {display: block;}
+audio,canvas,video { display: inline-block;}
+html,body {height: 100%;}
+@media screen and (max-width: 320px) {html{font-size:8px;}}
+@media screen and (max-width: 360px) {html{font-size:8px;}}
+@media screen and (max-width: 375px) {html{font-size:9px;}}
+@media screen and (max-width: 400px) {html{font-size:9px;}}
+@media screen and (max-width: 414px) {html{font-size:10px;}}
+@media screen and (max-width: 440px) {html{font-size:10px;}}
+@media screen and (max-width: 480px) {html{font-size:11px;}}
+@media screen and (max-width: 520px) {html{font-size:11px;}}
+@media screen and (max-width: 560px) {html{font-size:12px;}}
+@media screen and (max-width: 600px) {html{font-size:12px;}}
+@media screen and (max-width: 640px) {html{font-size:13px;}}
+@media screen and (max-width: 680px) {html{font-size:14px;}}
+@media screen and (max-width: 720px) {html{font-size:15px;}}
+@media screen and (max-width: 760px) {html{font-size:15px;}}
+@media screen and (max-width: 800px) {html{font-size:16px;}}
+@media screen and (max-width: 960px) {html{font-size:16px;}}
+@media only screen and (max-width:1600px ){body {font: 12px/24px "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei";}}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                               checkbox 默认样式                      				  ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.cl_checkbox {width: 12px;height: 12px; -webkit-appearance: none;-moz-appearance: none;appearance: none;background: darkblue;background-size: 12px 12px;border: none;cursor: pointer;}  
+.cl_checkbox:checked {background: darkgoldenrod;background-size: 12px 12px;border: none; }  
+input[type="checkbox"]:focus {border: none;}
+  
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                            常用布局 加类名 就可以                     				  ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.cl_l{float: left;}
+.cl_r{float: right;}
+.cl_ov{overflow: hidden;}
+.cl_clear{clear: both;}
+.cl_flex{display: flex;}
+.cl_absolute{position: absolute;left: 50%;top: 50%;transform: translate(-50% ,-50%);}
+.cl_relative{position: relative;}
+.cl_fixed{position: fixed;}
+.cl_none{display: none;}
+.cl_block{display: block;}
+.cl_span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cl_placeholder::-webkit-input-placeholder{color:#999;}
+.cl_placeholder::-moz-placeholder{color:#999;}
+.cl_placeholder:-moz-placeholder{color:#999;}
+.cl_placeholder:-ms-input-placeholder{color:#999;}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                            常用布局 加类名 就可以                     				  ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*//////////////////////                                                                          ////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
